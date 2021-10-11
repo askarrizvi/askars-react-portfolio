@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 
-function Footer(props) {
+function Resume(props) {
     /*const {
         categories = [],
         setCurrentCategory,
@@ -15,11 +15,8 @@ function Footer(props) {
 
 
     return (
-        <footer className="px-1">
-            <p>Author: Hege Refsnes</p>
-            <p><a href="mailto:hege@example.com">hege@example.com</a></p>
-        </footer>
+        <span>Resume Placeholder</span>
     );
 }
 
-export default Footer;
+export default Resume;

@@ -2,15 +2,18 @@ import React, { useEffect } from 'react'
 import Nav from '../Nav'
 
 function Header(props) {
-    /*const {
-        categories = [],
-        setCurrentCategory,
-        currentCategory,
+    const {
+        aboutSelected,
+        setAboutSelected,
+        portfolioSelected,
+        setPortfolioSelected,
         contactSelected,
-        setContactSelected
+        setContactSelected,
+        resumeSelected,
+        setResumeSelected
     } = props;
 
-    useEffect(() => {
+    /*useEffect(() => {
         document.title = capitalizeFirstLetter(currentCategory.name);
     }, [currentCategory]);*/
 
@@ -22,7 +25,16 @@ function Header(props) {
                     Askar Rizvi
                 </a>
             </h2>
-            <Nav />
+            <Nav
+                aboutSelected={aboutSelected}
+                setAboutSelected={setAboutSelected}
+                portfolioSelected={portfolioSelected}
+                setPortfolioSelected={setPortfolioSelected}
+                contactSelected={contactSelected}
+                setContactSelected={setContactSelected}
+                resumeSelected={resumeSelected}
+                setResumeSelected={setResumeSelected}
+            ></Nav>
         </header>
     );
 }
