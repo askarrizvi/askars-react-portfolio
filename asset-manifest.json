@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/askars-react-portfolio/static/css/main.1a11d3ce.chunk.css",
+    "main.js": "/askars-react-portfolio/static/js/main.3daf24c3.chunk.js",
+    "main.js.map": "/askars-react-portfolio/static/js/main.3daf24c3.chunk.js.map",
+    "runtime-main.js": "/askars-react-portfolio/static/js/runtime-main.5a616899.js",
+    "runtime-main.js.map": "/askars-react-portfolio/static/js/runtime-main.5a616899.js.map",
+    "static/js/2.cedaec21.chunk.js": "/askars-react-portfolio/static/js/2.cedaec21.chunk.js",
+    "static/js/2.cedaec21.chunk.js.map": "/askars-react-portfolio/static/js/2.cedaec21.chunk.js.map",
+    "static/js/3.fdc25aa4.chunk.js": "/askars-react-portfolio/static/js/3.fdc25aa4.chunk.js",
+    "static/js/3.fdc25aa4.chunk.js.map": "/askars-react-portfolio/static/js/3.fdc25aa4.chunk.js.map",
+    "index.html": "/askars-react-portfolio/index.html",
+    "static/css/main.1a11d3ce.chunk.css.map": "/askars-react-portfolio/static/css/main.1a11d3ce.chunk.css.map",
+    "static/js/2.cedaec21.chunk.js.LICENSE.txt": "/askars-react-portfolio/static/js/2.cedaec21.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5a616899.js",
+    "static/js/2.cedaec21.chunk.js",
+    "static/css/main.1a11d3ce.chunk.css",
+    "static/js/main.3daf24c3.chunk.js"
+  ]
+}
