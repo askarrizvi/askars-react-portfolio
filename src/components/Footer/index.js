@@ -20,14 +20,14 @@ function Footer(props) {
     return (
         <footer className="px-1 d-flex justify-content-center">
             <div className="px-4">
-            <a href="https://github.com/askarrizvi/"><FaGithub size={42} /></a>
+            <a href="https://github.com/askarrizvi/" target='_blank'><FaGithub size={42} /></a>
             </div>
             <div className="px-4">
-            <a href="https://www.linkedin.com/in/askarrizvi/"><FaLinkedin size={42} /></a>
+            <a href="https://www.linkedin.com/in/askarrizvi/" target='_blank'><FaLinkedin size={42} /></a>
             </div>
             <div className="px-4">
             
-            <a href="https://www.facebook.com/askar"><FaFacebook size={42} /></a>
+            <a href="https://www.facebook.com/askar" target='_blank'><FaFacebook size={42} /></a>
             </div>
         </footer>
     );

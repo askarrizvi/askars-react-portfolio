@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import Project from '../Project';
 
 function Portfolio(props) {
     /*const {
@@ -15,7 +16,9 @@ function Portfolio(props) {
 
 
     return (
-        <span>Portfolio Placeholder</span>
+        <div>
+        <Project />
+        </div>
     );
 }
 
