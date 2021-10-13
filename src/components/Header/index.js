@@ -19,9 +19,9 @@ function Header(props) {
 
 
     return (
-        <header className="flex-row px-1">
+        <header className="flex-row px-2 navbar-custom">
             <h2>
-                <a data-testid="link" href="/">
+                <a className="navbar-brand" data-testid="link" href="/">
                     Askar Rizvi
                 </a>
             </h2>

@@ -41,7 +41,7 @@ function Nav(props) {
 
     return (
         <nav>
-            <ul className="flex-row">
+            <ul className="flex-row py-3">
                 <li className={`mx-2 ${aboutSelected && 'navActive'}`}>
                     <span onClick={() => setHighlight("about")}>About Me</span>
             </li>

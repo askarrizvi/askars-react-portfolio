@@ -1,4 +1,7 @@
 import React, { useEffect } from 'react'
+import { FaGithub } from 'react-icons/fa'
+import { FaLinkedin } from 'react-icons/fa'
+import { FaFacebook } from 'react-icons/fa'
 
 function Footer(props) {
     /*const {
@@ -15,9 +18,17 @@ function Footer(props) {
 
 
     return (
-        <footer className="px-1">
-            <p>Author: Hege Refsnes</p>
-            <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+        <footer className="px-1 d-flex justify-content-center">
+            <div className="px-4">
+            <a href="https://github.com/askarrizvi/"><FaGithub size={42} /></a>
+            </div>
+            <div className="px-4">
+            <a href="https://www.linkedin.com/in/askarrizvi/"><FaLinkedin size={42} /></a>
+            </div>
+            <div className="px-4">
+            
+            <a href="https://www.facebook.com/askar"><FaFacebook size={42} /></a>
+            </div>
         </footer>
     );
 }

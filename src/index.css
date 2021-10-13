@@ -87,8 +87,8 @@ a {
   font-weight: bold;
 }
 
-a:hover {
-  text-decoration: underline;
+a, a:hover, a:visited, a:active, a:focus{
+  color:white;
 }
 
 header {
@@ -97,6 +97,13 @@ header {
 
 header a {
   color: var(--light);
+}
+
+.bg-cover {
+  background-attachment: static;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 button {
@@ -292,4 +299,8 @@ a {
 
 .navActive {
   color: var(--secondary);
+}
+
+.navbar-custom {
+  background-color: #a43f49;
 }
