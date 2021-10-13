@@ -4,18 +4,6 @@ import { FaLinkedin } from 'react-icons/fa'
 import { FaFacebook } from 'react-icons/fa'
 
 function Footer(props) {
-    /*const {
-        categories = [],
-        setCurrentCategory,
-        currentCategory,
-        contactSelected,
-        setContactSelected
-    } = props;
-
-    useEffect(() => {
-        document.title = capitalizeFirstLetter(currentCategory.name);
-    }, [currentCategory]);*/
-
 
     return (
         <footer className="px-1 d-flex justify-content-center">

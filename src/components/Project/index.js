@@ -1,18 +1,7 @@
 import React, { useState } from 'react'
-import { FaPiggyBank } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa'
 
-function Project(props) {
-    /*const {
-        categories = [],
-        setCurrentCategory,
-        currentCategory,
-        contactSelected,
-        setContactSelected
-    } = props;
-
-    useEffect(() => {
-        document.title = capitalizeFirstLetter(currentCategory.name);
-    }, [currentCategory]);*/
+function Project() {
 
     const [projects] = useState([
         {
@@ -64,7 +53,7 @@ function Project(props) {
                     <div className="middle">
                         <div class="text">
                             <a className="title" href={project.url} target='_blank'>{project.name}<br /><br /></a>
-                            <a href={project.github} target='_blank'>Github Repo</a>
+                            <a href={project.github} target='_blank'><FaGithub size={42} /></a>
                         </div>
                     </div>
                 </div>

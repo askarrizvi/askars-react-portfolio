@@ -279,7 +279,7 @@ button {
 	background: var(--primary);
 	border: 0;
 	border-radius: 5px;
-	color: #fff;
+	color: black;
 	cursor: pointer;
 	font-size: 16px;
 	font-weight: 600;
@@ -339,7 +339,7 @@ a {
 }
 
 .overlay:hover .image {
-  opacity: 0.3;
+  opacity: 0.4;
 }
 
 .overlay:hover .middle {
@@ -356,4 +356,5 @@ a {
   font-weight: bold;
   font-style: italic;
   font-size: 20px;
+  text-decoration: underline;
 }
