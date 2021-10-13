@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
+import { FiMail } from 'react-icons/fi'
 
 function Contact() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
@@ -43,10 +44,14 @@ function Contact() {
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name">Name:</label>
+                </div>
+                <div>
                     <input type="text" defaultValue={name} onMouseLeave={handleChange} onChange={handleChange} name="name" />
                 </div>
                 <div>
                     <label htmlFor="email">Email address:</label>
+                </div>
+                <div>
                     <input type="email" defaultValue={email} name="email" onMouseLeave={handleChange} onChange={handleChange} />
                 </div>
                 <div>
@@ -60,6 +65,9 @@ function Contact() {
                 )}
                 <button type="submit">Submit</button>
             </form>
+            <div>
+            Or Email Me Directly: <a href="mailto:askarrizvi88@gmail.com"><FiMail size={30} /></a>
+            </div>
         </section>
     );
 }
