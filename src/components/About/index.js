@@ -1,7 +1,9 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import coverImage from "../../assets/images/askarprofile.jpg";
 
+// About component with bio
 function About() {
+    // JSX
     return (
         <section className="my-1">
             <div className="d-flex justify-content-center">

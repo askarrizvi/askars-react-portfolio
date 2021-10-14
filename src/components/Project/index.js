@@ -1,8 +1,13 @@
 import React, { useState } from 'react'
+
+// Import GitHub icon
 import { FaGithub } from 'react-icons/fa'
 
+// Project function for the Project component
 function Project() {
 
+    // Array with the names, screenshot filenames, URLs of the deployed apps
+    // and GitHub repo URLs
     const [projects] = useState([
         {
             name: 'HTML Portfolio',
@@ -42,7 +47,10 @@ function Project() {
         }
     ])
 
-
+    // JSX
+    // Use array map function to create an image of each project and 
+    // show the name as a link to the deployed aqpp and the GitHub icon
+    // as a link to the Github repo when the user hovers over the image
     return (
         <div className="flex-row justify-content-center">
             {projects.map((project) => (

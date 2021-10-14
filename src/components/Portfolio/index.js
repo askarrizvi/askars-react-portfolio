@@ -1,20 +1,10 @@
-import React, { useEffect } from 'react'
+import React from 'react'
+
+// Import Project component that will be used in the portfolio
 import Project from '../Project';
 
-function Portfolio(props) {
-    /*const {
-        categories = [],
-        setCurrentCategory,
-        currentCategory,
-        contactSelected,
-        setContactSelected
-    } = props;
-
-    useEffect(() => {
-        document.title = capitalizeFirstLetter(currentCategory.name);
-    }, [currentCategory]);*/
-
-
+// Portfolio function for the Portfolio component
+function Portfolio() {
     return (
         <div>
         <Project />

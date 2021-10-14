@@ -2,12 +2,17 @@ import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
 import { FiMail } from 'react-icons/fi'
 
+// Contact component with contact form
 function Contact() {
+    // Create the formstate and the setter and initilize with blank values
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
     const { name, email, message } = formState;
     const [errorMessage, setErrorMessage] = useState('');
 
+    // Function to check if valid email has been entered or if text field is blank
     function handleChange(e) {
+        // If the user is editing the email field, check to see if it's a valid email
+        // or if the email field has been left blank
         if (e.target.name === 'email') {
             const isValid = validateEmail(e.target.value);
             console.log(isValid);
@@ -21,6 +26,8 @@ function Contact() {
                 setErrorMessage('');
             }
         } else {
+            // If the user is editing any field other than email, check to see if 
+            // the field was left blank
             if (!e.target.value.length) {
                 setErrorMessage(`${e.target.name} is required.`);
             } else {
@@ -32,9 +39,9 @@ function Contact() {
         }
     }
 
+    //Function to handle submit which will prevent the page from being refreshed
     function handleSubmit(e) {
         e.preventDefault();
-        console.log(formState);
     }
 
     // JSX

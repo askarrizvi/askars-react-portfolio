@@ -1,10 +1,14 @@
-import React, { useEffect } from 'react'
+import React from 'react'
+
+// Import social media icons
 import { FaGithub } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
 import { FaFacebook } from 'react-icons/fa'
 
+// Function for footer component
 function Footer(props) {
 
+    // JSX
     return (
         <footer className="px-1 d-flex justify-content-center">
             <div className="px-4">

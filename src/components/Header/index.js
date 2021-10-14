@@ -1,7 +1,11 @@
-import React, { useEffect } from 'react'
+import React from 'react'
+
+//Import the Navigation(Nav) component that will be embedded in the header
 import Nav from '../Nav'
 
+// Header function for the header component
 function Header(props) {
+    // Assign the state of the selected page and the setters from props
     const {
         aboutSelected,
         setAboutSelected,
@@ -13,11 +17,8 @@ function Header(props) {
         setResumeSelected
     } = props;
 
-    /*useEffect(() => {
-        document.title = capitalizeFirstLetter(currentCategory.name);
-    }, [currentCategory]);*/
-
-
+    // JSX
+    // Pass the Nav component the states and setters we assigned from props
     return (
         <header className="flex-row px-2 navbar-custom">
             <h2>

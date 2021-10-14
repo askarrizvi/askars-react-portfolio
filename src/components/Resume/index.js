@@ -1,6 +1,7 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 
-function Resume(props) {
+// Resume function for Resume component
+function Resume() {
     return (
         <div>
             <h1 id="resume">Resume</h1>
