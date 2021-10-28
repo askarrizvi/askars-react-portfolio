@@ -44,7 +44,14 @@ function Project() {
             filename: 'pixaradar.png',
             url: 'https://askarrizvi.github.io/project1/',
             github: 'https://github.com/askarrizvi/project1'
+        },
+        {
+            name: 'FMarket',
+            filename: 'fmarket.png',
+            url: 'https://vast-fjord-71803.herokuapp.com/',
+            github: 'https://github.com/askarrizvi/fmarket'
         }
+
     ])
 
     // JSX
