@@ -7,7 +7,7 @@ function Resume() {
             <h1 id="resume">Resume</h1>
             <div className="my-5">
                 <span>View my Resume: </span>
-                <u><a href="https://docs.google.com/document/d/1yE9wfm5ujX8wsDuMRfiRwQ7QjQ2qL5t6/edit?usp=sharing&ouid=115489137251474452131&rtpof=true&sd=true" download>Askar's Resume</a></u>
+                <u><a href="https://docs.google.com/document/d/1CJ50Cn1wAbkQMTKUCTrp57OFL4B4p8s5scDC4Prf3XM/edit?usp=sharing" download>Askar's Resume</a></u>
             </div>
             <div>
                 <h2>Front-End</h2>
