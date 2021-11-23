@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { validateEmail } from '../../utils/helpers';
 import { FiMail } from 'react-icons/fi'
+import emailjs from 'emailjs-com';
 
 // Contact component with contact form
 function Contact() {
@@ -8,6 +9,19 @@ function Contact() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
     const { name, email, message } = formState;
     const [errorMessage, setErrorMessage] = useState('');
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_1s37wuh', 'template_artq6jk', form.current, 'user_qM9rxAJ7W63KtHvQWA5xa')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+    };
 
     // Function to check if valid email has been entered or if text field is blank
     function handleChange(e) {
@@ -40,15 +54,15 @@ function Contact() {
     }
 
     //Function to handle submit which will prevent the page from being refreshed
-    function handleSubmit(e) {
+    /*function handleSubmit(e) {
         e.preventDefault();
-    }
+    }*/
 
     // JSX
     return (
         <section>
             <h1>Contact me</h1>
-            <form id="contact-form" onSubmit={handleSubmit}>
+            <form ref={form} id="contact-form" onSubmit={sendEmail}>
                 <div>
                     <label htmlFor="name">Name:</label>
                 </div>
