@@ -13,17 +13,23 @@ function About() {
             <img src={coverImage} className="my-2" style={{ width: "20%" }} alt="cover" />
             </div>
             <p className="py-5">
-                Hi! My name is Askar Rizvi.<br /> <br />
-                I am currently a Software Developer at Ericsson, which is one of the largest telecom companies
-                in the world.<br /> <br />
-                For my education, I graduated from Carleton University in 2011 with a B.Eng in
-                Software Engineering. <br /><br />
-                I've been interested in web development since childhood. I built my first website
-                when I was 11 years old, it was a fan page for the animated TV show Dragon Ball Z
-                made entirely in HTML. With this website, I made $100 through ad revenue in less
-                than a year after launch, which was a big amount of money to make for a preteen.
-                Since my first website until now, I have been doing web development on and off, including
-                for my final project at school and various other personal projects.
+            Software Engineer with a passion in web development and web technologies in general. 
+            I love building things and, more importantly, building things that people will enjoy 
+            using and will put a smile on their faces. I built my first website when I was 11 
+            years old, it was a Dragonball Z fansite and I made a shiny $100 from it through 
+            ad revenue(a hundred bucks can get you a long way when you're 11). Since then, I have 
+            worked on several projects, both personal and for my job or education, that involved 
+            full stack web development. <br /> <br />
+            
+            I have just recently completed a 6 month Full Stack Web Development bootcamp through 
+            Carleton University, in addition to the Bachelor of Engineering that I received from 
+            Carleton University in 2011. I have been working in various positions at Ericsson since 
+            I was a new grad, and am presently working as a 5G Developer specializing in Java test 
+            automation. <br /> <br />
+            
+            I am always working on improving myself and expanding my knowledge, not just for work, 
+            but for life in general. I love learning about new things and am always up for a challenge 
+            since facing a challenge is the best way to learn and grow.
             </p>
         </section>
     );
