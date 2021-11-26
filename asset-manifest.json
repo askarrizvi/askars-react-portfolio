@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/askars-react-portfolio/static/css/main.39e61a21.chunk.css",
-    "main.js": "/askars-react-portfolio/static/js/main.889f6540.chunk.js",
-    "main.js.map": "/askars-react-portfolio/static/js/main.889f6540.chunk.js.map",
-    "runtime-main.js": "/askars-react-portfolio/static/js/runtime-main.cfdb4354.js",
-    "runtime-main.js.map": "/askars-react-portfolio/static/js/runtime-main.cfdb4354.js.map",
+    "main.js": "/askars-react-portfolio/static/js/main.e87b405b.chunk.js",
+    "main.js.map": "/askars-react-portfolio/static/js/main.e87b405b.chunk.js.map",
+    "runtime-main.js": "/askars-react-portfolio/static/js/runtime-main.6f780edc.js",
+    "runtime-main.js.map": "/askars-react-portfolio/static/js/runtime-main.6f780edc.js.map",
     "static/css/2.0a9ec390.chunk.css": "/askars-react-portfolio/static/css/2.0a9ec390.chunk.css",
     "static/js/2.d6e3cdd7.chunk.js": "/askars-react-portfolio/static/js/2.d6e3cdd7.chunk.js",
     "static/js/2.d6e3cdd7.chunk.js.map": "/askars-react-portfolio/static/js/2.d6e3cdd7.chunk.js.map",
-    "static/js/3.4c29e96d.chunk.js": "/askars-react-portfolio/static/js/3.4c29e96d.chunk.js",
-    "static/js/3.4c29e96d.chunk.js.map": "/askars-react-portfolio/static/js/3.4c29e96d.chunk.js.map",
+    "static/js/3.344813f2.chunk.js": "/askars-react-portfolio/static/js/3.344813f2.chunk.js",
+    "static/js/3.344813f2.chunk.js.map": "/askars-react-portfolio/static/js/3.344813f2.chunk.js.map",
     "index.html": "/askars-react-portfolio/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/askars-react-portfolio/static/css/2.0a9ec390.chunk.css.map",
     "static/css/main.39e61a21.chunk.css.map": "/askars-react-portfolio/static/css/main.39e61a21.chunk.css.map",
@@ -20,15 +20,16 @@
     "static/media/fmarket.png": "/askars-react-portfolio/static/media/fmarket.63cdb285.png",
     "static/media/foster-lake.jpg": "/askars-react-portfolio/static/media/foster-lake.9a138347.jpg",
     "static/media/htmlportfolio.png": "/askars-react-portfolio/static/media/htmlportfolio.0ece4c31.png",
+    "static/media/impendium.png": "/askars-react-portfolio/static/media/impendium.e2fe2b2c.png",
     "static/media/nabl.png": "/askars-react-portfolio/static/media/nabl.c66e896b.png",
     "static/media/notetaker.png": "/askars-react-portfolio/static/media/notetaker.1c6fe21f.png",
     "static/media/pixaradar.png": "/askars-react-portfolio/static/media/pixaradar.39f04678.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.cfdb4354.js",
+    "static/js/runtime-main.6f780edc.js",
     "static/css/2.0a9ec390.chunk.css",
     "static/js/2.d6e3cdd7.chunk.js",
     "static/css/main.39e61a21.chunk.css",
-    "static/js/main.889f6540.chunk.js"
+    "static/js/main.e87b405b.chunk.js"
   ]
 }
