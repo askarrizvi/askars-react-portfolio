@@ -87,7 +87,7 @@ function Contact() {
                 <button type="submit">Submit</button>
             </form>
             <div>
-            Or Email Me Directly: <a href="mailto:askarrizvi88@gmail.com"><FiMail size={30} /></a>
+            Or Email me directly: <a href="mailto:askarrizvi88@gmail.com"><FiMail size={30} /></a>
             </div>
         </section>
     );
